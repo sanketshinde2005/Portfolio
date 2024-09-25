@@ -4,9 +4,9 @@ var downloadButton = document.getElementById("downloadCV");
 icon.onclick = function() {
     document.body.classList.toggle("light-theme");
     if (document.body.classList.contains("light-theme")) {
-        icon.src = "/Images/moon.jpeg";
+        icon.src = "../Images/moon.jpeg";
     } else {
-        icon.src = "/Images/sun.png";
+        icon.src = "../Images/sun.png";
     }
 }
 
